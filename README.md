@@ -31,3 +31,19 @@ streamlit run app.py
 - `src/review_ui.py`: review interface
 - `src/database.py`: SQLite persistence
 - `tests/`: automated tests (to be expanded)
+
+## Automated Tests
+
+The project includes automated tests covering:
+
+- Session creation
+- Interaction event logging
+- Saving and updating review decisions
+- Questionnaire submission
+- Session summary calculations
+- Analytics data loading
+
+Run the tests using:
+
+```powershell
+python -m pytest -v
